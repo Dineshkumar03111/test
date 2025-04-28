@@ -1,4 +1,7 @@
-
+#why-us, #prices, #services, #testimonials {
+  min-height: 100vh; /* Ensure they have height */
+  padding: 50px 0;
+}
 
 /* Reset some basic styles */
 body, p, ul, li, a {
@@ -506,6 +509,42 @@ label {
   text-decoration: none;
   cursor: pointer;
 }
+/*  get */ 
+/* modal.css */
+.modal-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* make sure it's on top */
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+
 
 
 
